@@ -1,5 +1,6 @@
-{
-  "name": "https://thotzee.github.io/Gallery",
+{ 
+  "home":"https://thotzee.github.io/emart/Gallery",
+  "name": "my-first-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
