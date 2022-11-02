@@ -2,7 +2,7 @@ export class image {
        constructor(src, author){
         this.src = src || '';
         this.author = author || '';
-        this.createdAt = new Date();
+        this.createdAt = "2015-02-12";
         this.comments = new comments();
        }
 }

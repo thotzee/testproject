@@ -22,14 +22,14 @@ const Upload = ({openUpload, setOpenUpload, handleCloseUpload, handleOpenUpload}
     const actualImageValues = {
       src:storedImage,
       author:userName,
-      createdAt: new Date(),
+      createdAt: '2015-01-01',
       comments: [],
     }
 
     const payload= {
       src:storedImage,
       author:userName,
-      createdAt: new Date(),
+      createdAt: '2015-01-01',
       comments: [],
     }
 
