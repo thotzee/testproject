@@ -1,0 +1,84 @@
+.modal {
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+
+  }
+  .inputContainer{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+     align-items: center;
+     height: 17vh;
+   }
+ 
+   .modalBox{
+    width: 35rem;
+    height: 20rem;
+    background-color:rgb(231, 225, 225) ;
+    border-radius: 15px;
+    display: flex;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+   }
+
+   h1{
+    text-align: center;
+    color:#282828;
+   }
+
+   .labelField{
+    color: #282828;
+    text-align: center;
+    
+   }
+
+   .inputRow{
+    width: 60%;
+    height: 30%;
+    outline: none;
+    border: none;
+    border:1px solid #282828;
+    border-radius: 10px;
+   }
+
+   .modalFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin:0 auto;
+   }
+
+   .button{
+    padding: 0.3rem 1.8rem;
+    border-radius: 15px;
+    border: solid transparent;
+    font-weight: 500;
+   }
+
+   .upload{
+    background-color: rgb(115, 219, 94);
+    color: #fff;
+   }
+
+   .cancel{
+    background-color: rgb(219, 94, 94);
+    color: #fff;
+   }
+
+   .btnClose{
+   position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    color: rgb(14, 13, 13);
+    font-size: 2rem;
+    top:1rem;
+    right: 1rem;
+   }
