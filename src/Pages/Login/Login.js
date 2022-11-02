@@ -19,11 +19,11 @@ const Login = () => {
 
         if (userName=== 'admin') {
             localStorage.setItem('loginDetails', JSON.stringify({userName:ADMIN_NAME, adminGallerys, userPassword}))
-            navigate("/");
+            navigate("/testproject");
         } 
         if(userName !== '' ) {
         localStorage.setItem('loginDetails', JSON.stringify({userName, userPassword, importedImages}));
-        navigate("/");
+        navigate("/testproject");
         }
     }
 

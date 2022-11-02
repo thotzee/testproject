@@ -60,7 +60,7 @@ const checker = () => {
 
   const logout = () => {
     localStorage.clear();
-    navigate('/');
+    navigate('/testproject');
   }
 
   const login =() => {
